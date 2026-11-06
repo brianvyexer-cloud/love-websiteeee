@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Little Love Story ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-hearts" id="hearts"></div>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section" id="welcome">
+
+        <div class="welcome-card">
+
+            <p class="top-label">A LITTLE SOMETHING FOR YOU</p>
+
+            <div class="main-heart">♡</div>
+
+            <h1>Welcome to Our<br>Little Love Story</h1>
+
+            <p class="welcome-text">
+                Some moments deserve to be remembered forever.
+                This little space was created just for you.
+            </p>
+
+            <div class="gift-box" id="giftBox">
+                🎁
+            </div>
+
+            <p class="gift-caption">A little surprise awaits...</p>
+
+            <button class="main-button" id="openGift">
+                Open Your Surprise ♡
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Romantic Question Section -->
+    <section class="question-section hidden" id="question">
+
+        <div class="content-card">
+
+            <div class="main-heart">♥</div>
+
+            <p class="top-label">JUST ONE LITTLE QUESTION</p>
+
+            <h1>Are you ready for<br>something special?</h1>
+
+            <p class="welcome-text">
+                I've prepared something from the heart.
+                Would you like to see it?
+            </p>
+
+            <div class="button-group">
+                <button class="main-button" id="yesButton">
+                    Yes, of course! ❤️
+                </button>
+
+                <button class="secondary-button" id="noButton">
+                    Maybe later
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Special Date Section -->
+    <section class="date-section hidden" id="dateSection">
+
+        <div class="content-card">
+
+            <p class="top-label">A DATE TO REMEMBER</p>
+
+            <div class="main-heart">♡</div>
+
+            <h1>Every love story<br>has a special date.</h1>
+
+            <p class="welcome-text">
+                Choose a date that holds a special place
+                in your heart.
+            </p>
+
+            <input type="date" id="specialDate">
+
+            <button class="main-button" id="dateButton">
+                Continue ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Music Section -->
+    <section class="music-section hidden" id="musicSection">
+
+        <div class="content-card">
+
+            <p class="top-label">A SONG JUST FOR YOU</p>
+
+            <div class="main-heart">♥</div>
+
+            <h1>Our little melody</h1>
+
+            <p class="welcome-text">
+                Some songs say what words cannot.
+            </p>
+
+            <div class="music-card">
+
+                <div class="album-art">♫</div>
+
+                <h2>House of Balloons</h2>
+
+                <p>A special song for a special moment.</p>
+
+                <audio id="loveSong" controls>
+                    <source src="song.mp3" type="audio/mpeg">
+                    Your browser does not support audio.
+                </audio>
+
+            </div>
+
+            <button class="main-button" id="continueButton">
+                There's More ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Final Surprise Section -->
+    <section class="final-section hidden" id="finalSection">
+
+        <div class="content-card">
+
+            <p class="top-label">MADE WITH LOVE</p>
+
+            <div class="main-heart">♥</div>
+
+            <h1>A Little Piece<br>of My Heart</h1>
+
+            <p class="welcome-text">
+                If I could give you one thing in life,
+                it would be the ability to see yourself
+                through my eyes.
+            </p>
+
+            <div class="photo-gallery">
+
+    <div class="photo-frame">
+        <img src="images/photo%20one.jpeg" alt="Our memory one">
+        <p>A memory I'll always treasure ❤️</p>
+    </div>
+
+    <div class="photo-frame">
+        <img src="images/photo%20two.jpeg" alt="Our memory two">
+        <p>Every moment with you is special 💕</p>
+    </div>
+
+    <div class="photo-frame">
+        <img src="images/photo%20three.jpeg" alt="Our memory three">
+        <p>My favourite kind of happiness 🥰</p>
+    </div>
+
+    <div class="photo-frame">
+        <img src="images/photo%20four.jpeg" alt="Our memory four">
+        <p>Here's to many more memories ❤️</p>
+    </div>
+
+</div>
+
+    <div class="photo-frame">
+        <img src="images/photo%20one.jpeg" alt="Our memory one">
+    </div>
+
+    <div class="photo-frame">
+        <img src="images/photo%20two.jpeg" alt="Our memory two">
+    </div>
+
+    <div class="photo-frame">
+        <img src="images/photo%20three.jpeg" alt="Our memory three">
+    </div>
+
+    <div class="photo-frame">
+        <img src="images/photo%20four.jpeg" alt="Our memory four">
+    </div>
+
+</div>
+
+            <h2 class="final-message">
+                You are my favourite story. ❤️
+            </h2>
+
+        </div>
+        <button id="heartButton" class="heart-button">
+    Send me some love ❤️
+</button>
+<div id="loveMessage"></div>
+<div class="love-letter">
+    <button onclick="window.location.href='letter.html'">
+    💌 Open your letter
+</button>
+    
+</div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
